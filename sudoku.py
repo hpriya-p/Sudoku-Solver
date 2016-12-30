@@ -13,7 +13,10 @@ a Grid is a (listof Row)
 a Row is a (listof (Anyof Nat, '.'))  
  
 """
-
+"""
+solve_sudoku(puzzle) prints the solution to a given sudoku puzzle
+solve_sudoku: Puzzle -> None
+"""
 
 def solve_sudoku(puzzle):
 	display_puzzle(puzzle)
